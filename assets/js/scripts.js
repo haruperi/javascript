@@ -85,5 +85,16 @@ if (varIf) {
  }
 
 
-console.log(ratingStar)
+
+
+
+// 5.0 JAVASCRIPT LOGICAL OPERATORS
+// can be && or || or !
+ if (3<4 && 5>2) {
+     let  num  = "Some Text..."
+ }
+
+
+
+
 
