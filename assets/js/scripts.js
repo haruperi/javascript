@@ -3,6 +3,8 @@
 //1.1 Numbers
 const numbers = () => 5*3
 
+//1.1 Strings
+const firstName = "Rufaro"
 
 
 
@@ -12,5 +14,5 @@ const numbers = () => 5*3
 
 
 
-console.log(numbers())
+console.log(firstName)
 
