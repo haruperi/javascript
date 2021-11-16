@@ -15,9 +15,12 @@ let varName1
 //1.5 Null
 let varName2  = null
 
+//1.6 Symbol
+let varSymbol  = Symbol("id")
 
 
 
 
-console.log(varName2)
+
+console.log(varSymbol)
 
