@@ -9,6 +9,8 @@ const firstName = "Rufaro"
 //1.3 Boolean
 const isMarried = true
 
+//1.4 Undefined
+let varName1
 
 
 
@@ -16,6 +18,5 @@ const isMarried = true
 
 
 
-
-console.log(isMarried)
+console.log(varName1)
 
