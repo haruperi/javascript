@@ -101,6 +101,18 @@ if (varIf) {
     return num*num
 }
 
+
+
+// 6.0 JAVASCRIPT DATA STRUCTURES
+// Arrays
+ let arrVar = [1,2,3,4,5]
+
+//  Object
+let userObject  = {
+    userName : "Rufaro",
+    age : 33
+};
+
 console.log(squareRoot(4))
 
 
