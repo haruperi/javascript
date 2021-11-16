@@ -18,9 +18,13 @@ let varName2  = null
 //1.6 Symbol
 let varSymbol  = Symbol("id")
 
+//1.6 Objects
+let userObject  = {
+    userName : "Rufaro",
+    age : 33
+};
 
 
 
-
-console.log(varSymbol)
+console.log(userObject.userName)
 
