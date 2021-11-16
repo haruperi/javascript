@@ -12,11 +12,12 @@ const isMarried = true
 //1.4 Undefined
 let varName1
 
+//1.5 Null
+let varName2  = null
 
 
 
 
 
-
-console.log(varName1)
+console.log(varName2)
 
