@@ -26,7 +26,7 @@ let userObject  = {
 
 
 
-// JAVASCRIPT COMPARISON
+// 2.0 JAVASCRIPT COMPARISON
 // 3!=4
 // 3===3
 // 3>2
@@ -34,7 +34,9 @@ let userObject  = {
 // 3>=2
 // 3<=4
 
-
+// 3.0 JAVASCRIPT VARIABLES
+const constNumber = 1988
+let varName = "Name"
 
 console.log(userObject.userName)
 
