@@ -95,6 +95,14 @@ if (varIf) {
  }
 
 
+// 6.0 JAVASCRIPT FUNCTIONS
+
+  const squareRoot =  (num) => {
+    return num*num
+}
+
+console.log(squareRoot(4))
+
 
 
 
