@@ -38,5 +38,52 @@ let userObject  = {
 const constNumber = 1988
 let varName = "Name"
 
-console.log(userObject.userName)
+
+// 4.0 JAVASCRIPT FLOW CONTROL - CONDITIONALS
+// if 
+const varIf = false
+let varTrue = ""
+let varFalse = ""
+const ratingVar = 3
+let ratingStar = ""
+
+if (varIf){
+    varTrue = "its TRUE"
+}
+
+// if else
+if (varIf) {
+    varTrue = "its TRUE"
+} else {
+    varFalse = "its TRUE"
+}
+
+// ternary
+ varIf === true ? varTrue = "its TRUE" : varFalse = "its TRUE"
+
+ //Switch
+ switch (ratingVar) {
+     case 1:
+         ratingStar = "One Star"
+         break;
+    case 2:
+         ratingStar = "Two Star"
+         break;
+    case 3:
+         ratingStar = "Three Star"
+         break;
+    case 4:
+         ratingStar = "Four Star"
+         break;
+    case 5:
+         ratingStar = "Five Star"
+         break;
+ 
+     default:
+        ratingStar = "Zero Star"
+         break;
+ }
+
+
+console.log(ratingStar)
 
