@@ -72,3 +72,25 @@ let newsfeed = [
 ];
 
 access = database[0].username
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// Write a JavaScript program to display the current day and time in the following format.  Go to the editor
+// Sample Output : Today is : Tuesday.
+// Current time is : 10 PM : 30 : 38
+
+const currentDateTime = () => {
+
+}
+
+
+const today = new Date();
+const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+const dateTime = date+' '+time;
+
+
+
+console.log()
